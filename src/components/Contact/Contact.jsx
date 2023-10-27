@@ -59,7 +59,14 @@ export const Contact = () => {
       console.log(response.data);
 
       if (response.status === 200) {
-        alert("Form submitted successfully");
+        alert("Message sent successfully!");
+        setFormData({
+          GuestName: "",
+          Email: "",
+          Phone: "",
+          MessageTitle: "",
+          Message: ""
+        });
       }
     } catch (error) {
       alert("Form submission failed");
@@ -132,13 +139,13 @@ export const Contact = () => {
       <div style={{ marginLeft: "auto" }}>
         <ul className={styles.links}>
           <li >
-            <a href="mailto:winwinn.htike@gmail.com"><img src={getImageUrl("contact/emailIcon.png")} alt="Email" /></a>
+            <a href="mailto:winwinn.htike@gmail.com"><img src={getImageUrl("contact/emailIcon.png")} alt="Email" title="winwinn.htike@gmail.com" /></a>
           </li>
           <li>
-            <a href="https://www.linkedin.com/in/winwinhtike/"><img src={getImageUrl("contact/linkedinIcon.png")} alt="LinkedIn" /></a>
+            <a href="https://www.linkedin.com/in/winwinhtike/"><img src={getImageUrl("contact/linkedinIcon.png")} alt="LinkedIn" title="https://www.linkedin.com/in/winwinhtike/" /></a>
           </li>
           <li>
-            <a href="https://github.com/win2htike"><img src={getImageUrl("contact/githubIcon.png")} alt="Github" /></a>
+            <a href="https://github.com/win2htike"><img src={getImageUrl("contact/githubIcon.png")} alt="Github" title="https://github.com/win2htike" /></a>
           </li>
         </ul>
       </div>
