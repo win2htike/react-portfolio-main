@@ -1,0 +1,32 @@
+[
+  {
+    "role": "Software Engineer",
+    "organisation": "JustLogin",
+    "startDate": "Jan, 2020",
+    "endDate": "Dec, 2021",
+    "experiences": [
+      "Worked on 'Leave' module of JustLogIn Human Resource Application"
+    ],
+    "imageSrc": "history/justlogin.png"
+  },
+  {
+    "role": "Software Developer",
+    "organisation": "Galaxy Software Co.,Ltd",
+    "startDate": "Oct, 2018",
+    "endDate": "Aug; 2019",
+    "experiences": [
+      "Developed and maintained the point-of-sale (POS) software system called iStock" 
+    ],
+    "imageSrc": "history/galaxy.jpeg"
+  },
+  {
+    "role": "Application Engineer",
+    "organisation": "Netflix",
+    "startDate": "Nov, 2017",
+    "endDate": "Sep; 2018",
+    "experiences": [
+      "Maintained, upgraded, and fixed bugs of the StarVision Human Resources Web Application"
+    ],
+    "imageSrc": "history/starvision.jpeg"
+  }
+]
