@@ -9,7 +9,7 @@
   },
   {
     "title": "Angular",
-    "imageSrc": "skills/react.png"
+    "imageSrc": "skills/angular.png"
   },
   {
     "title": "C#",
@@ -18,5 +18,21 @@
   {
     "title": "ASP.NET",
     "imageSrc": "skills/aspnet.png"
+  },
+  {
+    "title": "EF Core",
+    "imageSrc": "skills/efcore.png"
+  },
+  {
+    "title": "LINQ",
+    "imageSrc": "skills/linq.png"
+  },
+  {
+    "title": "TSQL",
+    "imageSrc": "skills/tsql.png"
+  },
+  {
+    "title": "PostgreSQL",
+    "imageSrc": "skills/postgresql.png"
   }
 ]
